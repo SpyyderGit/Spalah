@@ -3,6 +3,9 @@ import java.util.Scanner;
 /**
  * Created by Jerald_PC on 13.12.2016.
  */
+
+
+
 public class First {
 
     public static void main(String[] args) {
