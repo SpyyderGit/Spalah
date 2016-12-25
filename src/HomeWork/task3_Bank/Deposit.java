@@ -16,7 +16,8 @@ public class Deposit {
     }
 
     public int profit(int years) {
-        return (years * cash * percent);
+
+        return (years * (cash * 100 / percent));
     }
 
     @Override
