@@ -40,6 +40,8 @@ public class MainBank {
         Account creditVasya = new CheckingAccount("39001218648656123123", 500, 5);
         Account creditVasya1 = new CheckingAccount("9853123123156514132", 200, 15);
 // добавили счета
+
+
         vasya.addAcc(depositVasya);
         vasya.addAcc(creditVasya);
         vasya.addAcc(creditVasya1);
