@@ -6,7 +6,6 @@ package HomeWork.task4_Bank_v2;
 public class CheckingAccount extends Account {
 
 
-    private double balance;
     private double overdraft;
 
     public CheckingAccount(String acc, double balance, double overdraft) {
@@ -26,6 +25,7 @@ public class CheckingAccount extends Account {
 
     @Override
     public void addMoney(double summa) {
+
         balance += summa;
     }
 

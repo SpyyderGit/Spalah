@@ -26,9 +26,9 @@ public abstract class Account {
 
     @Override
     public String toString() {
-        return "account: " + acc
+        return "\naccount: " + acc
                  + ", balance: " + balance
                  + ", Type: "
-                 + this.getClass().getSimpleName() + "\n";
+                 + this.getClass().getSimpleName();
     }
 }

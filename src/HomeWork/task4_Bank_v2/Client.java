@@ -61,10 +61,10 @@ public class Client {
     @Override
     public String toString() {
         return  "clientName='" + clientName + '\'' +
-                ",\n sex=" + sex +
-                ",\n listOfAcc=" + listOfAcc +
-                ",\n activeAcc='" + activeAcc + '\'' +
-                '}' + "\n";
+                ",\nsex=" + sex +
+                ",\nlistOfAcc=" + listOfAcc +
+                ",\nactiveAcc='" + activeAcc + '\'' +
+                '}' ;
     }
 
 

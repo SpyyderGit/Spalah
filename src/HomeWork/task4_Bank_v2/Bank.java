@@ -20,10 +20,6 @@ public class Bank {
     public void getClientInfo(String clientName) {
         for (Client client : clients) {
             if (client.getClientName().equals(clientName)) {
-//                System.out.println("Name: " + client.getClientName());
-//                System.out.println("Sex: " + client.getSex());
-//                System.out.println("Active account: " + client.getActiveAcc());
-//                System.out.println("Total ballance: " + client.getTotalBalance());
                 System.out.println(client);
                 System.out.println("Total balance: " + client.getTotalBalance());
             }
